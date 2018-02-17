@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Isaac Lubanko</title>
+    <!--Bootsrap css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!---->
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <!--Other links-->
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!--- HEADER CONTENT -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Isaac Lubanko</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <!--- END HEADER CONTENT -->    
+
+    <!--CONTAINER-->
+    <div class = "container-fluid">
+        <div class = "row">
+            
+            <!--I decided to keep the columns in their 2/3rds, and 1/3rd configuration on "smal screens" as well. That means it doesn't switch to each section taking up an entireity of the gird until the screen goes below 768px. This looks closer to the media query site and it keeps the main image form getting too big-->
+            <!--MAIN PAGE CONTENT:Portfolio-->
+
+            <div class = "col-md-8 col-sm-8 main-section-content">
+                <div class = "page-header">
+                    <h2>Portfolio</h2>
+                    <!--ROW 1-->
+                    <div class = "row">
+                    <div class = "col-md-6 ">
+                            <div class = "portfolio-item">
+                                <a href = "#"><img class = "portfolio-image" src = "assets/images/minicooper.jpg">
+                                    <span class = "label-background">
+                                        <h4 class = "portfolio-label">Hangman</h4>
+                                    </span>
+                                   </a>
+                            </div>
+                        </div>
+                        <div class = "col-md-6 ">
+                            <div class = "portfolio-item ">
+                                <a href = "#"><img class = "portfolio-image" src = "assets/images/ants.jpg">
+                                    <span class = "label-background">
+                                        <h4 class = "portfolio-label">RPG Game</h4>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ROW 2-->
+                    <div class = "row">
+                        <div class = "col-md-6 ">
+                            <div class = "portfolio-item">
+                                <a href = "#"><img class = "portfolio-image" src = "assets/images/colors.jpg">
+                                    <span class = "label-background">
+                                        <h4 class = "portfolio-label">Trivia Game</h4>
+                                    </span>
+                                   </a>
+                            </div>
+                        </div>
+                        <div class = "col-md-6 ">
+                            <div class = "portfolio-item ">
+                                <a href = "#"><img class = "portfolio-image" src = "assets/images/patterns.jpg">
+                                    <span class = "label-background">
+                                        <h4 class = "portfolio-label">Rutgers Info Widget</h4>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ROW 3-->
+                    <div class = "row">
+                        <div class = "col-md-6">
+                            <div class = "portfolio-item">
+                                <a href = "#"><img class = "portfolio-image" src = "assets/images/capacitors.jpg">
+                                    <span class = "label-background">
+                                        <h4 class = "portfolio-label">Rock Paper Scissors</h4>
+                                    </span>
+                                   </a>
+                            </div>
+                        </div>
+                        <div class = "col-md-6">
+                            <div class = "portfolio-item ">
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                    
+                <!--END MAIN PAGE CONTENT-->
+            </div>
+            <!--SIDEBAR-->
+ 
+            <div class = "col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1  sidebar">
+                
+                    <div class = "row"> 
+                        <h3 class = "text-center">Connect with me</h3>
+                        <div class = "col-md-4 col-sm-4 col-xs-4"><a href="#"><img class = "contact-images" src ="assets/images/githubsq.png"></a></div>
+                        <div class = "col-md-4 col-sm-4 col-xs-4"><a href="#"><img class = "contact-images" src ="assets/images/linkedinsq.png"></a></div>
+                        <div class = "col-md-4 col-sm-4 col-xs-4"><a href="#"><img class = "contact-images" src ="assets/images/stackoverflowsq.png"></a></div>
+
+
+                    </div>
+
+            </div>
+            <!--END SIDEBAR-->
+        </div>
+    </div>
+
+            <!--MAIN PAGE CONTENT-->
+
+  
+    <!--FOOTER-->
+    <footer class="footer">
+            <div class="container">
+              <p class = "footer-text">©copyright 2018 Isaac Lubanko</p>
+            </div>
+    </footer>
+</body>
+</html>

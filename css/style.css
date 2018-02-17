@@ -1,0 +1,43 @@
+
+body{
+    background-image: url("../images/escheresque.jpg");}
+/*NAVBAR EDITS*/ 
+.bg-green {
+    background-color: #3a9d4b !important;
+
+}
+
+.navbar-brand {
+    font-size:1.85rem;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color:#ffffff;
+}
+
+.container-fluid {
+    max-width:1280px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    text-decoration:underline;
+    color:#ffffff;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+/*JUMBOTRON*/
+
+#top-banner {
+    margin-bottom: 0rem;
+}
+
+/*MAIN CONTENT*/
+.main-content{
+    background:#ffffff;
+    min-height:960px;
+}
