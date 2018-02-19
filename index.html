@@ -6,7 +6,7 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1">
     <title>Isaac Lubanko</title>
     <!--reset-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
     <!--Bootsrap css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
@@ -18,15 +18,14 @@
     <!--Other links-->
     <!--<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />-->
 
-
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 
 <body>
     <!--- HEADER CONTENT -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-green ">
+    <nav class = "navbar navbar-expand-lg navbar-light bg-green ">
       <div class = "container-fluid">
-        <a class="navbar-brand" href="#">Isaac Lubanko</a>
+        <a id = "title-text" class="navbar-brand" href="#">Isaac Lubanko</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -68,32 +67,52 @@
     <div id="top-banner" class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="text-center">
-              <h1 class="display-3 ">Fluid jumbotron</h1>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
             </div>
         </div>
       </div>
     <!--END JUMBOTRON-->
 
     <!--CONTAINER-->
-      <div class = "main-content container-fluid">
+      <div class = "content container-fluid">
+       
+        <div class = "row">
+         <!--MAIN PAGE CONTENT--> 
+          <div class = "primary-content col-md-9">
+            <div class = "row">
+              <div class = "col-md-4">
+               <img id = "headshot" src = "assets/images/proheadshot.jpg" class = "img-fluid rounded-circle mr-3">
+              </div>
+              <div class = "col-md-8 pl-4">
+                  <blockquote class = "blockquote ml-7"><p class = "mb-0">My name is Isaac Lubanko.  I build fast, responsive websites for small businesses and personal projects. I have experience with HTML, CSS, Javascript, PHP and CMSs such as Wordpress and Grav CMS.</p></blockquote>
+                  <h3 class = "m-4 pt-3">Full Stack Web Development!</h3>
+                  <!--<p class = "m-4">My name is Isaac Lubanko. I am a freelance web developer who specializes in making fast, responsive, sleek websites for small businesses and personal projects.</p>-->
+                  <button class = "m-4">See my Portfolio</button>
+              </div>
+            </div>
+            <div class = "row">
+              <div class = "text-content col-12">
+                <h2>About Me</h2>
+                <p>I got my start in Web Development while I was playing in my band, SpaceWaster.  We were gigging professionally, traveling the country and trying to establish a  prescence on social media.</p>
+                <p>At one point we figured that it would be great to have an official website so we could have all of our content tied to a single link that could fit on a sticker or a business card.  Being an independent band that took pride in our DIY ethos, I decided to take charge of building and deploying the website.</p>
+                <p>At first I figured I would just pruchase a fancy WYSIWYG editor or Wordpress theme and call it a day, but being an artist, it was imperitive that our website match the attitude and the aesthetic that we put forth in our work, both on our abum covers and sonically in our music. I desired more control, so I decided to teach myself to do it from scratch. I began reading books on HTML, CSS, Javascript and began to learn what went on under the hood of Wordpress. </p>
+                <p>The result was a custom built Wordpress theme that inserted blog style posts in my own custom CSS layout.  This setup allowed us to write blog posts and deploy them quickly, while maintaining the advantages of a custom built website.</p>
+                <p>As a web developer my main approach is to use frameworks and CMS editors when convenient, but never shy away from hand coding things, and looking under the hood when necessary. I am currently available for freelance work, contract hiring and full time employment. </p>
+              </div>
 
-      </div>
-
-    <!--MAIN PAGE CONTENT-->           
-          
-
-    <!--END MAIN PAGE CONTENT-->
-      
-            <!--SIDEBAR-->
- 
-        
-            <!--END SIDEBAR-->
+            </div>
 
 
+          </div>
+          <!--END MAIN PAGE CONTENT--> 
+          <!--SIDEBAR-->
+          <div id = "sidebar" class = "col-md-3">
+              <p>yeaaaaaaaaah</p>
+          </div>
+          <!--END SIDEBAR-->
+        </div>
 
-
-  
+      </div> 
     <!--FOOTER-->
     <footer class="footer">
     </footer>

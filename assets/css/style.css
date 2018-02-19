@@ -1,14 +1,58 @@
 
+/*General Styles*/
+
 body{
-    background-image: url("../images/escheresque.jpg");}
-/*NAVBAR EDITS*/ 
+    background-image: url("../images/escheresque.jpg");
+}
+
+h2 {
+    margin-bottom:2rem;
+}
+ 
+
+ p, ul, ol, dl, dd, dt, blockquote, td, th{
+     line-height:1.65rem;
+ }
+
+ .blockquote{
+    position: relative;
+    font-style: italic;
+    font-size: 1.125rem;
+    /*margin-left: 5rem;*/
+    padding-left: 1.65em;
+    border-left: 2px solid #dddddd;
+ }
+
+ button {
+    background-color: #72b624;
+    color: white;
+    /* font-style: italic; */
+    border-radius: 6px;
+    border-color: #72b624;
+    font-size: 14pt;
+    border: none;
+    padding: 12px 16px;
+    box-sizing: border-box;
+}
+
+ /*NAVBAR EDITS*/ 
+
 .bg-green {
-    background-color: #3a9d4b !important;
+    background-color: #2d863c !important;
 
 }
 
-.navbar-brand {
-    font-size:1.85rem;
+
+p{
+    color: #535353;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+}
+
+#title-text {
+    font-size:2rem;
 }
 .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
     color:#ffffff;
@@ -33,11 +77,47 @@ body{
 /*JUMBOTRON*/
 
 #top-banner {
+    background-image: url("../images/head-bg.jpg");
     margin-bottom: 0rem;
+    height:300px;
+}
+
+#top-banner img{
+    
 }
 
 /*MAIN CONTENT*/
-.main-content{
+.content{
     background:#ffffff;
     min-height:960px;
+
+}
+
+.primary-content{
+    padding:4rem;
+}
+
+.primary-content p{
+    font-size:18px;
+    font-weight:400;
+}
+
+.text-content{
+    padding:2rem;
+}
+
+#headshot {
+    margin-bottom:2rem;
+}
+
+/*SIDEBAR*/
+
+#sidebar {
+    background:#fff2cc;;
+}
+@media (min-width:768px) {
+    #sidebar {
+        min-height:960px;
+
+    }
 }
