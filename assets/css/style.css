@@ -49,11 +49,13 @@ p{
     font-size: 18px;
     font-weight: 400;
 }
+
+@media (min-width:540px){
+    #title-text {
+        font-size:2rem;
+    }
 }
 
-#title-text {
-    font-size:2rem;
-}
 .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
     color:#ffffff;
 }
@@ -93,8 +95,16 @@ p{
 
 }
 
+
 .primary-content{
-    padding:4rem;
+    padding:2rem;
+}
+
+
+@media (min-width:640px){
+    .primary-content{
+        padding:4rem;
+    }
 }
 
 .primary-content p{
@@ -102,8 +112,10 @@ p{
     font-weight:400;
 }
 
-.text-content{
-    padding:2rem;
+@media (min-width:640px){
+    .text-content{
+        padding:2rem;
+    }
 }
 
 #headshot {
