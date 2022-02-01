@@ -16,9 +16,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
     <!--Other links-->
     <!--<link href="assets/css/fontawesome-all.css" rel="stylesheet">-->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
@@ -102,7 +100,7 @@
             <div class = "row">
               <div class = "text-content col-12">
                 <h2>About Me</h2>
-                <p>I have been a web developer for <span id = "years">3</span> years now. I have some freelance work under my belt and am currently taking classes to become a more  full stack developer.</p>
+                <p>I have been a web developer for <span id ="years"></span> years now. I have some freelance work under my belt and am currently taking classes to become a more  full stack developer.</p>
                 <p>I got my start in Web Development while I was playing in my band, SpaceWaster. We were gigging professionally, traveling the country and trying to establish a prescence on social media.</p>
                 <p>At one point we figured that it would be great to have an official website so we could have all of our content tied to a single link that could fit on a sticker or a business card. Being an independent band that took pride in our DIY ethos, I decided to take charge of building and deploying the website.</p>
                 <p>After about 6 months of learning HTML, CSS, Wordpress and a bit of PHP I had a Wordpress site that I built from my own custom theme.  I decided to continue to teach myself and pick up some freelance work on the side.</p>
@@ -172,8 +170,14 @@
     <!--FOOTER-->
     <footer class="footer">
             <div class = "footer-box container">
-              <p class = "footer-text m-0 text-center">©copyright 2018 Isaac Lubanko</p>
+              <p class = "footer-text m-0 text-center">©copyright <span id="copyright-year"></span> Isaac Lubanko</p>
             </div>
     </footer>
 </body>
+<script>
+  var current_year = new Date().getFullYear();
+  var dev_years = current_year - 2015;
+  document.getElementById("copyright-year").innerHTML = current_year;
+  document.getElementById("years").innerHTML = dev_years;
+</script>
 </html>

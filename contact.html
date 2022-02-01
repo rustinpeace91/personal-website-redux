@@ -168,8 +168,12 @@
     <!--FOOTER-->
     <footer class="footer">
             <div class = "footer-box container">
-              <p class = "footer-text m-0 text-center">©copyright 2018 Isaac Lubanko</p>
+            <p class = "footer-text m-0 text-center">©copyright <span id="copyright-year"></span> Isaac Lubanko</p>
             </div>
     </footer>
 </body>
+<script>
+  var current_year = new Date().getFullYear();
+  document.getElementById("copyright-year").innerHTML = current_year;
+</script>
 </html>
